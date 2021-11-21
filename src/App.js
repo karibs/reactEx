@@ -1,11 +1,7 @@
+import MyComponent from "./MyComponent";
 
-
-function App() {
-  return (
-    <div>
-      <h1>test</h1>
-    </div>
-  );
-}
+const App = () => {
+  return <MyComponent />;
+};
 
 export default App;
